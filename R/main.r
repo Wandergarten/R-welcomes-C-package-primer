@@ -59,4 +59,9 @@ fbind(a, b)
 # or
 # use_test()
 # use_test("fbind")
-test()
+
+# use_package("forcats")
+
+# use_r("fcount")
+load_all()
+fcount(iris$Species)
