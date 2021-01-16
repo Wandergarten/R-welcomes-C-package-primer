@@ -31,3 +31,4 @@ factor(c(as.character(a), as.character(b)))
 # expected: "FALSE"
 
 # check()
+# use_gpl3_license(name = "C. Kujath")
