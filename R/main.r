@@ -27,4 +27,7 @@ factor(c(as.character(a), as.character(b)))
 # fbind(a,b)
 # expected:"Levels: but character counts eyeballs hits integer where it your"
 
-exists("fbind", where = globalenv(), inherits = FALSE)
+# exists("fbind", where = globalenv(), inherits = FALSE)
+# expected: "FALSE"
+
+# check()
