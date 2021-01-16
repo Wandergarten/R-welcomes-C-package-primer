@@ -5,6 +5,7 @@
 library(devtools)
 library(tidyverse)
 library(fs)
+library(testthat)
 #create_package("C:/PLAIT/C2R")
 
 (a <- factor(c("character", "hits", "your", "eyeballs")))
@@ -35,3 +36,27 @@ factor(c(as.character(a), as.character(b)))
 # use_gpl3_license(name = "C. Kujath")
 
 # Strg + "." --> edit DESCRIPTION
+
+# insert roxygen skeleton inside fbind() using Data->Insert roxygen skeleton
+
+# create a function documentation:
+# document()
+
+# check the created help doc:
+# ?fbind
+
+# check()
+
+# install()
+
+# library(C2R)
+a <- factor(c("test", "hits", "your", "eyeballs"))
+b <- factor(c("but", "integer", "where it", "counts"))
+
+fbind(a, b)
+
+# use_testthat()
+# or
+# use_test()
+# use_test("fbind")
+test()
